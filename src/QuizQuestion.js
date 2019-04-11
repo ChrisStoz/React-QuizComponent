@@ -17,7 +17,5 @@ render(){
       </main>
     )
 }
-
 }
-    
-  export default QuizQuestion
+export default QuizQuestion    
