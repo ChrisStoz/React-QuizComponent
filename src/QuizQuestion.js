@@ -4,7 +4,7 @@ import QuizQuestionButton from './QuizQuestionButton.js'
 class QuizQuestion extends Component {
   constructor(props)
   {
-      super()
+      super(props)
       this.state = { incorrectAnswer: false }
   }
   handleClick(button_text)
